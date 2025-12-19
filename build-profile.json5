@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:/Users/李若曦/.ohos/config/openharmony/default_MusicPlayer_JR1HJ8tOOgyoa7H24JyRrCVpYsZsdNNPMmmEHA3meUE=.cer",
+          "storePassword": "0000001B197F0898EBC8DCA3055160D5F963CD6B998D8187F1D46078137D179B7C1F994B0414BD9342FE86",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B85F2DD8B24CA3AF22A205949B1881D17FBD460272F0C2136F928486510D36AC3F8CDC7E2E3705B",
+          "profile": "C:/Users/李若曦/.ohos/config/openharmony/default_MusicPlayer_JR1HJ8tOOgyoa7H24JyRrCVpYsZsdNNPMmmEHA3meUE=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/李若曦/.ohos/config/openharmony/default_MusicPlayer_JR1HJ8tOOgyoa7H24JyRrCVpYsZsdNNPMmmEHA3meUE=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": 12,
+        "compatibleSdkVersion": 12,
+        "runtimeOS": "OpenHarmony",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

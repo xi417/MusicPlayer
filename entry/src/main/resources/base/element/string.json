@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "XIXI音乐"
+    },
+    {
+      "name": "reason_read_media",
+      "value": "播放器需要读取存储中的音乐文件以供播放"
+    },
+    {
+      "name": "reason_write_media",
+      "value": "播放器需要下载或保存音乐相关数据"
+    }
+  ]
+}
